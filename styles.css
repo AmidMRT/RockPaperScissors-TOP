@@ -1,0 +1,51 @@
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 72px;
+   
+}
+
+.score {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 12px;
+}
+
+#cell {
+    width:300px
+}
+
+
+.choices {
+    display: flex;
+    justify-content:center;
+}
+
+.humanChoice, .computerChoice {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: cadetblue;
+    padding: 24px;
+    border-radius: 5px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.humanSelection {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
